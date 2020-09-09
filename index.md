@@ -9,6 +9,8 @@
 
 ## Assignments
 
+- [HW1](assign/hw1.md)
+
 ## Labs
 
 ## Tools
