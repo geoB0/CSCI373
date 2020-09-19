@@ -6,7 +6,7 @@
 
 - [C++ Review](https://nbviewer.jupyter.org/github/wildart/CSCI373/blob/main/notebooks/CPP-Review.ipynb)
 - [Abstract Data Types](https://nbviewer.jupyter.org/github/wildart/CSCI373/blob/main/notebooks/ADT.ipynb)
-- [Linear Lists](https://nbviewer.jupyter.org/github/wildart/CSCI373/blob/main/notebooks/LinearLists.ipynb)
+- [Arrays](https://nbviewer.jupyter.org/github/wildart/CSCI373/blob/main/notebooks/Arrays.ipynb)
 
 ## Assignments
 
