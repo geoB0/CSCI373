@@ -18,7 +18,7 @@ The run time of each member function is specified in parentheses at the end of t
 
 ### UML Class Diagram
 
-<center>
+<center style="border:0">
 <p></p><table cellpadding="3" border="1">
 	<tbody><tr><th>CircularArray</th></tr>
 	<tr>
