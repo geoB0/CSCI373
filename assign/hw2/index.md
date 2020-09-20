@@ -4,7 +4,7 @@
 
 In this sub-project, you will implement one class:
 
-- Circular Array: `CircularArray`.
+- Circular Array: `CircularArrayList`.
 
 An array is called **circular** if its first element comes before its last element. In general, a circular array allows insertions and deletions in O(n) time. The elements in this circular array are stored in a static array of size *N*.
 
@@ -18,9 +18,8 @@ The run time of each member function is specified in parentheses at the end of t
 
 ### UML Class Diagram
 
-<center style="border:0">
 <p></p><table cellpadding="3" border="1">
-	<tbody><tr><th>CircularArray</th></tr>
+	<tbody><tr><th>CircularArrayList</th></tr>
 	<tr>
 		<td>
 			<tt>-</tt> entry_count:Integer<br>
@@ -30,8 +29,8 @@ The run time of each member function is specified in parentheses at the end of t
 	</tr>
 	<tr>
 		<td>
-			<u><tt>+</tt> CircularArray(in size:Integer)</u><br>
-			<u><tt>+</tt> ~CircularArray()</u><br>
+			<u><tt>+</tt> CircularArrayList(in size:Integer)</u><br>
+			<u><tt>+</tt> ~CircularArrayList()</u><br>
 			<tt>+</tt> size():Integer<br>
             <tt>+</tt> max_size():Integer<br>
 			<tt>+</tt> empty():Boolean<br>
@@ -44,9 +43,9 @@ The run time of each member function is specified in parentheses at the end of t
 		</td>
 	</tr>
 </tbody></table><p></p>
-</center>
 
-A skeleton for this class is provided in the [source directory](https://github.com/wildart/CSCI373/tree/main/assign/hw2) in the file [CircularArray.h](https://github.com/wildart/CSCI373/tree/main/assign/hw2/CircularArray.h).
+
+A skeleton for this class is provided in the [source directory](https://github.com/wildart/CSCI373/tree/main/assign/hw2) in the file [CircularArrayList.h](https://github.com/wildart/CSCI373/tree/main/assign/hw2/CircularArrayList.h).
 
 ### Description
 
@@ -121,7 +120,7 @@ This class has three mutators:
 For local development you are required to have a C++ compiler installed on your local machine.
 
 - In order to compile test driver program `ArrayListDriver`, you will need to place following files in the local folder on your computer:
-    - `CircularArray.h`
+    - `CircularArrayList.h`
     - `ArrayListDriver.cpp`
     - `ArrayListTester.h`
     - `Tester.h`
@@ -151,7 +150,7 @@ You can use [repl.it](https://repl.it) service as the development environment wh
 - Go to [repl.it](https://repl.it) website, press the `Start coding` button.
 - Select `Import from Github` tab and paste the course repository URL
     - `https://github.com/wildart/CSCI373`
-- Inside the `assign/hw2` folder, open `CircularArray.h` and start coding.
+- Inside the `assign/hw2` folder, open `CircularArrayList.h` and start coding.
 - Press **Run** button to compile and run the test driver program with provided collection of test.
     - Fix your program so all the test report `Okay`.
 ### Commands
@@ -201,4 +200,4 @@ Program submissions should be done through the Blackboard.
 
 For Assignment #2, submit the following files:
 
-- `CircularArray.h`
+- `CircularArrayList.h`
