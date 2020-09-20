@@ -20,7 +20,7 @@ area and perimeter.
 
 ## Driver Program
 
-The listing of unfinished [test driver](https://github.com/wildart/CSCI373/blob/main/assign/platonicsolids.cpp) is provided below.
+The listing of unfinished [test driver](https://github.com/wildart/CSCI373/blob/main/assign/hw1/platonicsolids.cpp) is provided below.
 Note, the file `platonicsolids.cpp` is not a complete program. It is just a some code to get you started, illustrating some calls.
 
 

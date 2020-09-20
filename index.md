@@ -10,7 +10,7 @@
 
 ## Assignments
 
-- [HW1](assign/hw1.md)
+- [HW1: C++ Review](assign/hw1/index.md)
 
 ## Labs
 
