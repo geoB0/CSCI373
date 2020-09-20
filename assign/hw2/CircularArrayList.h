@@ -10,7 +10,7 @@ protected:
     T* elements; // storage for the objects
 public:
     CircularArrayList(int size = 10) {};
-    ~CircularArrayList();
+    ~CircularArrayList() {};
     // Capacity
     bool empty() const {return entry_count == 0;}
     int size() const {return entry_count;}

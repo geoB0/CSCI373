@@ -46,7 +46,7 @@ The run time of each member function is specified in parentheses at the end of t
 </tbody></table><p></p>
 </center>
 
-A skeleton for this class is provided in the [source directory](.) in the file [CircularArray.h](./CircularArray.h).
+A skeleton for this class is provided in the [source directory](https://github.com/wildart/CSCI373/tree/main/assign/hw2) in the file [CircularArray.h](https://github.com/wildart/CSCI373/tree/main/assign/hw2/CircularArray.h).
 
 ### Description
 
@@ -54,13 +54,6 @@ This class stores a finite list of `n` (zero or more) elements stored in a stati
 
 - If there are zero elements in the list, the list is said to be empty.
 - The maximum number of elements in the list is `N`.
-    At all times, the head and tail pointers store the addresses of the head and tail sentinel nodes, respectively.
-    The previous pointer of the head sentinel always points to nullptr.
-    The next pointer of the tail sentinel always points to nullptr.
-    If the list is empty, the next pointer of the head sentinel node is assigned the address of the tail sentinel; otherwise, the next pointer of the head sentinel node is assigned the address of the first node in the linked list (the front node).
-    If the list is empty, the previous pointer of the tail sentinel node is assigned the address of the head sentinel; otherwise, the previous pointer of the tail sentinel node is assigned the address of the last node in the linked list (the back node).
-    The next pointer of the kth node (1 ≤ k < n) stores the address of the (k + 1)st node, the next pointer of the nth is assigned to the address of the tail sentinel.
-    The previous pointer of the kth node (1 < k ≤ n) stores the address of the (k − 1)st node, and the previous pointer of the first node is assigned the address of the head sentinel.
 
 ### Member Variables
 
@@ -137,7 +130,7 @@ For local development you are required to have a C++ compiler installed on your 
         - `testfile.txt` contains test commands
         - `Makefile` is the build configuration file
 
-- All files located in [`assign/hw2` folder](https://github.com/wildart/CSCI373/assign/hw2) of the course repository [https://github.com/wildart/CSCI373](https://github.com/wildart/CSCI373). You can download whole repository as a zip archive.
+- All files located in [`assign/hw2` folder](https://github.com/wildart/CSCI373/tree/main/assign/hw2) of the course repository [https://github.com/wildart/CSCI373](https://github.com/wildart/CSCI373). You can download whole repository as a zip archive.
 
 - Copy all files is the local folder, and run the following command in the command line inside the folder to compile the test driver program:
     - `g++ -std=c++11 -o ArrayListDriver ArrayListDriver.cpp`
