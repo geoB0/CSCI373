@@ -11,6 +11,7 @@
 ## Assignments
 
 - [HW1: C++ Review](assign/hw1/index.md)
+- [HW2: Circular ArrayList](assign/hw2/index.md)
 
 ## Labs
 
