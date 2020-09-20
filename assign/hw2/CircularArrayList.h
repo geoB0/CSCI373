@@ -16,7 +16,7 @@ public:
     int size() const {return entry_count;}
     int max_size() const {return array_capacity;}
     // Element access
-    T at(int i) const;
+    T& at(int i) const;
     void set(int i, const T& o);
     // Modifiers
     void insert(int i, const T& o);
@@ -36,7 +36,7 @@ public:
 // Element access
 
 template <typename T>
-T CircularArrayList<T>::at(int i) const {
+T& CircularArrayList<T>::at(int i) const {
     // write your solution here
 }
 
