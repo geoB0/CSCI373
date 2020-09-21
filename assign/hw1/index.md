@@ -11,7 +11,7 @@ Write a C++ program that has following
 - a `PlatonicSolid` interface that has abstract functions, `area()`, and `volume()`.
 - Implement classes for `Tetrahedron`, `Cube`, `Octahedron`, `Dodecahedron`, and `Icosahedron`, which implement above interface, with the obvious meanings for the `area()` and `volume()` functions.
 - Implement classes, (right square) `Pyramid`, see [Square pyramid](https://en.wikipedia.org/wiki/Square_pyramid), and (right) `Parallelepiped`, see [Parallelepiped](https://en.wikipedia.org/wiki/Parallelepiped), which have the appropriate inheritance relationships to `Tetrahedron` and `Cube`.
-    - Hint: For the parallelepiped assume that all the angles are 90 degrees. 
+    - Hint: For the parallelepiped assume that all the angles are 90 degrees.
 - Finally, write a simple user interface that allows users to create figures of
 the various types, input their geometric properties, and then output their
 area and perimeter.
@@ -57,16 +57,33 @@ int main() {
 
 
 ```
-$ ./platonicsolids                                                                                               
+$ ./platonicsolids
 Select figure type:
  0) Tetrahedron
- 1) Cube
-   ...
+ 1) Pyramid
+ ....
 -1) Exit
 Enter the figure type: 0
-Enter tetrahedron edge length: 10.2
-Figure area is 45.0506
-Figure volume is 125.065
+Enter tetrahedron edge length: 10
+Figure area is 173.205
+Figure volume is 117.851
+
+Select figure type:
+ 0) Tetrahedron
+ 1) Pyramid
+ ....
+-1) Exit
+Enter the figure type: 1
+Enter pyramid height: 10
+Enter pyramid length: 10
+Figure area is 273.205
+Figure volume is 333.333
+
+Select figure type:
+ 0) Tetrahedron
+ 1) Pyramid
+ ....
+-1) Exit
 Enter the figure type: -1
 Goodbye!
 ```

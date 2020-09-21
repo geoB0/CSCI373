@@ -1,7 +1,7 @@
 CXX = g++
 CXX_FLAGS = -I. -std=c++11 -Wfatal-errors -Wall -Wextra -Wpedantic -Wconversion -Wshadow
 
-DRIVER=ArrayListDriver
+DRIVER=platonicsolids
 
 # List of all .cpp source files.
 CPP = $(DRIVER).cpp
@@ -11,8 +11,8 @@ DEP = $(OBJ:%.o=%.d)
 # Final binary
 BIN = $(DRIVER)
 
-hw2: $(BIN)
-	./$(BIN) < testfile.txt
+hw1: $(BIN)
+	./$(BIN)
 
 $(BIN) : $(OBJ)
 	$(CXX) $(CXX_FLAGS) $^ -o $@
