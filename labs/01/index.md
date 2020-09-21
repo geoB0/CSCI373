@@ -157,6 +157,8 @@ You can use [repl.it](https://repl.it) service as the development environment wh
 - Select `Import from Github` tab and paste the course repository URL
     - `https://github.com/wildart/CSCI373`
 - Inside the `labs/01` folder, open `ArrayList.h` and start coding.
+- Find file `.replit` in the root of the project and change the `run` parameter to
+  - `run = "make -C labs/01"`
 - Press **Run** button to compile and run the test driver program with provided collection of test.
     - Fix your program so all the test report `Okay`.
 
