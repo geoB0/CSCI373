@@ -30,3 +30,8 @@ clean:
 
 solution:
 	find . -name "*.solution" | xargs enscript --color=1 -C -Ecpp -fCourier10 -o - | ps2pdf - solution.pdf
+
+pdf: solution
+	pdftoppm solution.pdf solution-img -png
+	convert solution-img*.png solution.pdf
+	rm solution-img*
