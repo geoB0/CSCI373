@@ -15,6 +15,8 @@
 
 ## Labs
 
+- [Lab1: ArrayList](labs/01/index.md)
+
 ## Tools
 
 ### Compilers & IDEs
