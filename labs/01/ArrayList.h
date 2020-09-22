@@ -40,14 +40,14 @@ public:
 
 template <typename T>
 T& ArrayList<T>::at(int i) const {
-    if (0 < i && i > entry_count)
+    if (i < 0 || i > entry_count)
         throw std::out_of_range("Index is out of bounds");
     return elements[i];
 }
 
 template <typename T>
 void ArrayList<T>::set(int i, const T& o) {
-    if (0 < i && i > entry_count)
+    if (i < 0 || i > entry_count)
         throw std::out_of_range("Index is out of bounds");
     elements[i] = o;
 }
