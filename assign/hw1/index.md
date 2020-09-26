@@ -10,7 +10,7 @@ Write a C++ program that has following
 
 - a `PlatonicSolid` interface that has abstract functions, `area()`, and `volume()`.
 - Implement classes for `Tetrahedron`, `Cube`, `Octahedron`, `Dodecahedron`, and `Icosahedron`, which implement above interface, with the obvious meanings for the `area()` and `volume()` functions.
-- Implement classes, (right square) `Pyramid`, see [Square pyramid](https://en.wikipedia.org/wiki/Square_pyramid), and (right) `Parallelepiped`, see [Parallelepiped](https://en.wikipedia.org/wiki/Parallelepiped), which have the appropriate inheritance relationships to `Tetrahedron` and `Cube`.
+- Implement classes, (right square) `Pyramid`, see [Square pyramid](https://en.wikipedia.org/wiki/Square_pyramid), and (right) `Parallelepiped`, see [Parallelepiped](https://en.wikipedia.org/wiki/Parallelepiped), which have the appropriate inheritance relationships to `Tetrahedron` and `Cube`, respectively.
     - Hint: For the parallelepiped assume that all the angles are 90 degrees.
 - Finally, write a simple user interface that allows users to create figures of
 the various types, input their geometric properties, and then output their
