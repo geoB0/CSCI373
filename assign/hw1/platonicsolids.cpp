@@ -19,7 +19,7 @@ int main() {
         cin >> figuretype;
         // use `createFigure` function to create an object for a specified figure
         // use `figureProperties` function to show the figure properties
-        // !!!Note: Do not forgate to handle your memory correctly!!!
+        // !!!Note: Do not forget to handle your memory correctly!!!
     } while (figuretype != -1);
     cout << "Goodbye!" << endl;
     return 0;
