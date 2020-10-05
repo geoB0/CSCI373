@@ -7,10 +7,10 @@ class CircularArrayList {
 protected:
     int entry_count;       // current size
     int array_capacity;    // maximum allowed size
-    T* elements; // storage for the objects
+    T* elements;           // storage for the objects
 public:
-    CircularArrayList(int size = 10) {};
-    ~CircularArrayList() {};
+    CircularArrayList(int size = 10);
+    ~CircularArrayList();
     // Capacity
     bool empty() const {return entry_count == 0;}
     int size() const {return entry_count;}
@@ -32,6 +32,16 @@ public:
         }
     }
 };
+
+template <typename T>
+CircularArrayList<T>::CircularArrayList(int size): entry_count{0}, array_capacity{size} {
+    // write your solution here
+}
+
+template <typename T>
+CircularArrayList<T>::~CircularArrayList() {
+    // write your solution here
+}
 
 // Element access
 
